@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo {
+  padding-top: 15px;
+}
+
+.header_order_time {
+  background-color: var(--white);
+  border: 1px solid var(--border-grey);
+  border-radius: 2px;
+  width: 65px;
+  height: 45px;
+}
