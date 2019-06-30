@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
+import {Footer} from "./Footer/Footer";
+import {Restaurant} from "./Restaurant/Restaurant";
 
 
 function App() {
@@ -13,8 +15,13 @@ function App() {
                 <Route path="/"
                        exact
                        component={Main}/>
+                       <Route
+                           path="/restaurant"
+                           component={Restaurant}
+                       />
 
             </Router>
+            <Footer/>
         </div>
     );
 }

@@ -1,0 +1,30 @@
+.restaurant_card_products {
+    display: flex;
+    height: 161px;
+    width: 470px;
+    padding-right: 16px;
+    margin-bottom: 50px;
+}
+
+.restaurant_card_info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 300px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    height: 123px;
+    padding: 18px 10px;
+}
+
+.restaurant_card_name {
+    font-family: var(--font-roboto);
+    font-size: 16px;
+}
+
+.restaurant_card_price {
+    font-family: var(--font-roboto);
+    color: var(--text);
+    margin-top: 90px;
+    font-size: 15px;
+}

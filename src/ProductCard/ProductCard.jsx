@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 export function ProductCard(props) {
     return (
         <li className="card_products">
-            <Link to="#">
+            <Link to="restaurant">
                 <img className="card_products_img" src={props.imageUrl} alt={Mc}/>
             </Link>
                 <span className="name_restaurant">{props.title}</span>
