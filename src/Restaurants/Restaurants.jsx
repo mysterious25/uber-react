@@ -1,4 +1,5 @@
 import React from 'react';
+import './Restaurants.css';
 
 export function Restaurants() {
     return (

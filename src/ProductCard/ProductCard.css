@@ -1,0 +1,23 @@
+.card_products {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    margin-bottom: 35px;
+    padding-right: 5px;
+}
+
+.name_restaurant {
+    font-family: var(--font-roboto);
+}
+
+.name_category {
+    color: var(--text2);
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.card_time {
+    color: var(--text3);
+    font-size: 13px;
+    padding-top: 4px;
+}

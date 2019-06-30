@@ -1,6 +1,21 @@
 import React from 'react';
-import Styles from './ProductList.css';
+import './ProductList.css';
+import {ProductCard} from "../ProductCard/ProductCard";
+
 
 export function ProductList() {
-    <ul className="product_cards"></ul>
+    return (
+    <ul className="product_cards">
+
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+    </ul>
+    )
 }
