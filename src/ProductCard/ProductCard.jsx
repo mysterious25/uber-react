@@ -1,14 +1,18 @@
 import React from 'react';
 import './ProductCard.css';
 import Mc from './mc.png'
+import {Link} from "react-router-dom";
 
 export function ProductCard(props) {
     return (
         <li className="card_products">
-            <img src={props.imageUrl} alt={Mc}/>
-            <span className="name_restaurant">{props.title}</span>
-            <span className="name_category">₴₴ • Бургеры</span>
-            <span className="card_time">35 - 45 Min</span>
+            <Link to="#">
+                <img className="card_products_img" src={props.imageUrl} alt={Mc}/>
+            </Link>
+                <span className="name_restaurant">{props.title}</span>
+                <span className="name_category">{props.priceBucket}{props.categories.map((categori, i) => { return '•' + categori.name })}</span>
+                <span className="card_time">35 - 45 Min</span>
+
         </li>
     )
 }
