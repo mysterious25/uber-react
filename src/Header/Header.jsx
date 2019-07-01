@@ -2,13 +2,14 @@ import React from 'react';
 import logoLogo1 from './logologo1.svg';
 import basketbasket from './basketbasket.svg';
 import Styles from './Header.module.css'
+import {Link} from 'react-router-dom';
 
 
 export function Header() {
     return (
         <div className={Styles.header}>
             <div className={Styles.header_wrapper}>
-                <img className={Styles.header_wrapper__img} src={logoLogo1} alt="logo"/>
+                <Link className={Styles.header_wrapper_link} to="/"><img className={Styles.header_wrapper__img} src={logoLogo1} alt="logo"/></Link>
                 <div className={Styles.header_order_wrapper}>
                     <button className={Styles.header_order_time}>Asap</button>
                     <span className={Styles.header_order__span}>to</span>
