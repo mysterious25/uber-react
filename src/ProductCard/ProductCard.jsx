@@ -11,7 +11,7 @@ export function ProductCard(props) {
             </Link>
                 <span className="name_restaurant">{props.title}</span>
                 <span className="name_category">{props.priceBucket}{props.categories.map((categori, i) => { return '•' + categori.name })}</span>
-                <span className="card_time">35 - 45 Min</span>
+                <span className="card_time">{props.etaRange.min} - {props.etaRange.max}</span>
 
         </li>
     )
