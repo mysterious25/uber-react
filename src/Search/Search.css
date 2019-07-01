@@ -16,3 +16,9 @@
     width: 100%;
     position: relative;
 }
+
+.search_label:before {
+    content: url("Shapesearch.svg");
+    position: absolute;
+    top: 0px;
+}
