@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1fe3923-f1a7-4b0a-8ff4-395e2ebef2e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Restaurant/ProductList/ProductCard/infoCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProductCard/ProductCard.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Header/Header.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProductList/restaurants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="1224">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProductList/ProductList.jsx">
+        <entry file="file://$PROJECT_DIR$/src/Header/Header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="459">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -76,6 +67,13 @@
       <find>search_label</find>
       <find>.search_label:before</find>
       <find>.footer</find>
+      <find>link</find>
+      <find>header_order_wrapper</find>
+      <find>time</find>
+      <find>labe</find>
+      <find>header_order__label</find>
+      <find>label</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/ProductList/ProductList.jsx" />
         <option value="$PROJECT_DIR$/src/Restaurants/Restaurants.css" />
-        <option value="$PROJECT_DIR$/src/Footer/Footer.jsx" />
         <option value="$PROJECT_DIR$/src/Restaurant/Restaurant.js" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/Restaurant/restaurantPreview/RestaurantPreview.js" />
@@ -116,10 +113,11 @@
         <option value="$PROJECT_DIR$/src/Restaurant/ProductList/ProductCard/ProductCard.jsx" />
         <option value="$PROJECT_DIR$/src/Restaurant/ProductList/ProductList.jsx" />
         <option value="$PROJECT_DIR$/src/Search/Search.css" />
-        <option value="$PROJECT_DIR$/src/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/ProductCard/ProductCard.jsx" />
-        <option value="$PROJECT_DIR$/src/Header/Header.jsx" />
+        <option value="$PROJECT_DIR$/src/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/src/Header/Header.jsx" />
       </list>
     </option>
   </component>
@@ -149,13 +147,25 @@
               <item name="uber-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="uber-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProductCard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uber-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="uber-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductList" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductListWrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uber-react" type="b2602c69:ProjectViewProjectNode" />
@@ -217,12 +227,13 @@
       <option name="presentableId" value="Default" />
       <updated>1561908662128</updated>
       <workItem from="1561908663422" duration="23501000" />
-      <workItem from="1561977748305" duration="5076000" />
+      <workItem from="1561977748305" duration="5319000" />
+      <workItem from="1562067095276" duration="2345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28577000" />
+    <option name="totallyTimeSpent" value="31165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1302" y="0" width="1258" height="1400" extended-state="0" />
@@ -355,16 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Footer/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Restaurant/RestaurantNav/RestaurantNav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -450,34 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Restaurant/ProductList/ProductCard/ProductCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Header/Header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -493,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProductCard/ProductCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="238">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -508,10 +485,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Footer/Footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Footer/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProductList/ProductList.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="66" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

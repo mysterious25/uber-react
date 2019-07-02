@@ -5,7 +5,7 @@ import './Footer.css';
 export function Footer () {
     return (
         <div className="footer">
-            <div className="footer_wrapper">
+            <div className="footer__wrapper">
                     <img src={WhiteLogo} alt={WhiteLogo}/>
             </div>
         </div>

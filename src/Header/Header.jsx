@@ -8,19 +8,19 @@ import {Link} from 'react-router-dom';
 export function Header() {
     return (
         <div className={Styles.header}>
-            <div className={Styles.header_wrapper}>
-                <Link className={Styles.header_wrapper_link} to="/"><img className={Styles.header_wrapper__img} src={logoLogo1} alt="logo"/></Link>
-                <div className={Styles.header_order_wrapper}>
-                    <button className={Styles.header_order_time}>Asap</button>
-                    <span className={Styles.header_order__span}>to</span>
-                    <label className={Styles.header_order__label}>
-                        <input type="text" className={Styles.header_order__input} placeholder="ul. Tarasivska St, 16"/>
+            <div className={Styles.header__wrapper}>
+                <Link className={Styles.header__wrapper__link} to="/"><img className={Styles.header_wrapper__img} src={logoLogo1} alt="logo"/></Link>
+                <div className={Styles.header__wrapper__order}>
+                    <button className={Styles.header__wrapper__order__time}>Asap</button>
+                    <span className={Styles.header__wrapper__order__span}>to</span>
+                    <label className={Styles.header__wrapper__order__label}>
+                        <input type="text" className={Styles.header__wrapper__order__label__input} placeholder="ul. Tarasivska St, 16"/>
                     </label>
                 </div>
-                <div className={Styles.cabinet_wrapper_button__wrapper}>
-                    <button className={Styles.cabinet_button__signin}>Sing in</button>
-                    <button className={Styles.cabinet_button__black}>Register</button>
-                    <img src={basketbasket} className={Styles.cabinet_button__img} alt="basket"/>
+                <div className={Styles.header__wrapper__button__wrapper}>
+                    <button className={Styles.header__wrapper__button__wrapper__signin}>Sing in</button>
+                    <button className={Styles.header__wrapper__button__wrapper__black}>Register</button>
+                    <img src={basketbasket} className={Styles.header__wrapper__button__wrapper__img} alt="basket"/>
                 </div>
             </div>
         </div>
