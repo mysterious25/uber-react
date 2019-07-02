@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductCard.css';
-import Capture from './Capture.png';
+import Capture from './image/Capture.png';
 import {Link} from 'react-router-dom';
 
 export function ProductCard () {

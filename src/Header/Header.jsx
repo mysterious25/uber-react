@@ -1,6 +1,6 @@
 import React from 'react';
-import logoLogo1 from './logologo1.svg';
-import basketbasket from './basketbasket.svg';
+import logoLogo1 from './image/logologo1.svg';
+import basketbasket from './image/basketbasket.svg';
 import Styles from './Header.module.css'
 import {Link} from 'react-router-dom';
 

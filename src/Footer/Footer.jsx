@@ -1,5 +1,5 @@
 import React from 'react';
-import WhiteLogo from './white-logologo2.svg'
+import WhiteLogo from './image/white-logologo2.svg'
 import './Footer.css';
 
 export function Footer () {

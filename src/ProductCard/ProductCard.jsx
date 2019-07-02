@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductCard.css';
-import Mc from './mc.png'
+import Mc from './image/mc.png'
 import {Link} from "react-router-dom";
 
 export function ProductCard(props) {
