@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
-import {Header} from "./Header/Header";
-import {Main} from "./Main/Main";
-import {Footer} from "./Footer/Footer";
-import {Restaurant} from "./Restaurant/Restaurant";
+import {Header} from "./components/Header/Header";
+import {Main} from "./components/Main/Main";
+import {Footer} from "./components/Footer/Footer";
+import {Restaurant} from "./components/Restaurant/Restaurant";
 
 
 function App() {
