@@ -1,4 +1,8 @@
 .restaunt_product_cards {
     display: flex;
     flex-wrap: wrap;
+    width: 1124px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
 }
