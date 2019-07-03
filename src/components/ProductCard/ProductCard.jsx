@@ -5,14 +5,13 @@ import {Link} from "react-router-dom";
 
 export function ProductCard(props) {
     return (
-        <li className="card_products">
+        <li className="productCard">
             <Link to="restaurant">
-                <img className="card_products_img" src={props.imageUrl} alt={Mc}/>
+                <img className="productCard__mc" src={props.imageUrl} alt={Mc}/>
             </Link>
-                <span className="name_restaurant">{props.title}</span>
-                <span className="name_category">{props.priceBucket}{props.categories.map((categori, i) => { return '•' + categori.name })}</span>
-                <span className="card_time">{props.etaRange.min} - {props.etaRange.max}</span>
-
+                <span className="productCard__restaurant">{props.title}</span>
+                <span className="productCard__category">{props.priceBucket}{props.categories.map((categori, i) => { return '•' + categori.name })}</span>
+                <span className="productCard__time">{props.etaRange.min} - {props.etaRange.max}</span>
         </li>
     )
 }

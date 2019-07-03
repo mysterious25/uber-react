@@ -1,4 +1,4 @@
-.restaurant-preview__background {
+.restaurant-preview {
     background: url("image/main_rest.png");
     background-size: cover;
     height: 364px;
@@ -8,12 +8,12 @@
     padding-top: 70px;
 }
 
-.presentation_card {
+.restaurant-preview__card {
     margin: auto;
     max-width: 1130px;
 }
 
-.presentetion_card_wrapper {
+.restaurant-preview__wrapper {
     width: 389px;
     height: 204px;
     background: white;
@@ -26,26 +26,26 @@
     margin-left: 85px
 }
 
-.presentetion_card_title {
+.restaurant-preview__title {
     font-family: var(--font-roboto);
     font-size: 36px;
     line-height: 42px;
 }
 
-.presentetion_card_footer {
+.restaurant-preview__footer {
     display: flex;
     font-family: var(--font-roboto);
     margin-top: 50px;
     justify-content: space-between;
 }
 
-.presentetion_card_price {
+.restaurant-preview__price {
     font-size: 14px;
     line-height: 16px;
     margin-top: 8px;
 }
 
-.presentetion_card_time {
+.restaurant-preview__time {
     background-color: var(--black-btn);
     color: white;
     border-radius: 16px;

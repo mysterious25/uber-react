@@ -1,11 +1,11 @@
 import React from 'react';
-import {Restaurants} from "../Restaurants/Restaurants";
+import {RestaurantTitle} from "../RestaurantTitle/RestaurantTitle";
 import {ProductList} from "../ProductList/ProductList";
 
 export function ProductListWrapper() {
     return (
-        <div className="product_list">
-            <Restaurants/>
+        <div className="productListWrapper">
+            <RestaurantTitle/>
             <ProductList/>
         </div>
     )

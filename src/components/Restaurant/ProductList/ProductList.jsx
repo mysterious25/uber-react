@@ -5,7 +5,7 @@ import './ProductList.css';
 
 export function ProductLIst () {
     return (
-        <ul className="restaunt_product_cards">
+        <ul className="restaurant__productList">
             <ProductCard/>
             <ProductCard/>
             <ProductCard/>

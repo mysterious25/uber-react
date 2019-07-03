@@ -5,7 +5,7 @@ import {restaurantMenus} from './restaurants';
 
 export function ProductList() {
     return (
-        <ul className="product_cards">
+        <ul className="productList">
             {restaurantMenus.map((restaurantMenu, i) => {
                 return (
                     <ProductCard key={i}

@@ -1,4 +1,4 @@
-.restaurant_card_products {
+.restaurant__productCard {
     display: flex;
     height: 161px;
     width: 470px;
@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 
-.restaurant_card_info {
+.restaurant__cardInfo {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -17,12 +17,12 @@
     padding: 18px 10px;
 }
 
-.restaurant_card_name {
+.restaurant__cardName {
     font-family: var(--font-roboto);
     font-size: 16px;
 }
 
-.restaurant_card_price {
+.restaurant__cardPprice {
     font-family: var(--font-roboto);
     color: var(--text);
     margin-top: 90px;

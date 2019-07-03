@@ -1,4 +1,4 @@
-.restaunt_product_cards {
+.restaurant__productList {
     display: flex;
     flex-wrap: wrap;
     width: 1124px;

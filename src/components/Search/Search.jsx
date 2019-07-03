@@ -3,9 +3,9 @@ import './Search.css';
 
 export function Search() {
     return (
-        <div className="search_wrapper">
-            <label className="search_label">
-                <input type="text" className="search" placeholder="Search for restaurant or cuisine"/>
+        <div className="search">
+            <label className="search__label">
+                <input type="text" className="search__input" placeholder="Search for restaurant or cuisine"/>
             </label>
         </div>
     )
