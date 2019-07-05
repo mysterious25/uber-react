@@ -1,0 +1,14 @@
+.restaurant-navigation_item {
+    padding-right: 20px;
+    font-family: var(--font-roboto);
+    font-size: 16px;
+}
+
+.type-food {
+    color: var(--text2);
+    text-decoration: none;
+}
+
+.type-food:hover {
+    color: var(--hover-type-food);
+}

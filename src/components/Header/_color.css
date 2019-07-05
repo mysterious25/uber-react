@@ -3,6 +3,7 @@
   --white: #ffffff;
   --border-grey: #E0E0E0;
   --black-btn: black;
+  --black: black;
   --grey: #d3d3d3;
   --text: #1D1D1D;
   --text2: #626262;
@@ -11,6 +12,7 @@
   --card_background: #757575;
   --border: 1px solid var(--border-color);
   --border-color: #e0e0e0;
+  --hover-type-food: #57ad56;
 
   --font-roboto: Roboto, sans-serif;
 }

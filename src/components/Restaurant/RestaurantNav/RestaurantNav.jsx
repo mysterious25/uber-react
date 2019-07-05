@@ -1,7 +1,7 @@
 import React from 'react';
 import './RestaurantNav.css';
 import {menu} from "../ProductList/menu";
-import {Link} from  "react-router-dom";
+import {TypeFood} from "../../TypeFood/TypeFood";
 
 export function RestaurantNav () {
     return (
@@ -10,12 +10,11 @@ export function RestaurantNav () {
                 <ul className="restaurant-navigation-list">
                     {menu.sections.map((section, i) => {
                         return (
-                            <li className="restaurant-navigation_item">
-                                <Link className="restaurant-navigation__link"
-                                   to={`#${section.title}`}>
-                                </Link>
-                                {section.title}
-                            </li>
+                            <TypeFood
+                            key={i}
+                            anchor={`#${section.title}`}
+                            type={section.title}
+                            />
                         )
                         }
                     )}
