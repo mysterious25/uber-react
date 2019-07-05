@@ -11,12 +11,13 @@ export function ProductLIst () {
                     <>
                         <div className="restaurant__chooseBlock">
                             <span className="restaurant__chooseTitle" id={`${section.title}`}>{section.title}</span>
-                        </div>
+
                     <div key={i}>
                         {section.itemUuids.map((item, i) => {
                             return <ProductCard key={i} id={item}/>
                         })}
                     </div>
+                        </div>
                     </>
                 );
             })}
