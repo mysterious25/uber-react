@@ -7,7 +7,7 @@ import {menu} from "../menu";
 export function ProductCard (props) {
     let dishPhoto =  menu.items[props.id].imageUrl;
     return (
-        <>
+        <div className="restaurant__productCardWrapper">
             <li className="restaurant__productCard">
                 <div className="restaurant__cardInfo">
                     <span className="restaurant__cardName">{menu.items[props.id].title}</span>
@@ -20,6 +20,6 @@ export function ProductCard (props) {
                     )}
                 </Link>
             </li>
-        </>
+        </div>
     )
 }

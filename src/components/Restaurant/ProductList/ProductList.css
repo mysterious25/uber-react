@@ -1,8 +1,17 @@
 .restaurant__productList {
-    display: flex;
-    flex-wrap: wrap;
+
     width: 1124px;
-    justify-content: space-between;
+
     margin: auto;
     padding: 0;
+}
+
+.restaurant__chooseBlock {
+    text-align: left;
+}
+
+.restaurant__CardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
