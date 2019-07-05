@@ -9,6 +9,8 @@
   --text3: #1D1D1D;
   --ftr: #262626;
   --card_background: #757575;
+  --border: 1px solid var(--border-color);
+  --border-color: #e0e0e0;
 
   --font-roboto: Roboto, sans-serif;
 }
