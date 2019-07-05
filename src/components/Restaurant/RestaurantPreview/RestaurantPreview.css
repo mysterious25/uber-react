@@ -1,6 +1,5 @@
-.restaurant-preview {
-    background: url("image/main_rest.png");
-    background-size: cover;
+.App .restaurant-preview {
+    background-size: contain;
     height: 364px;
     width: 100%;
     margin-top: 20px;

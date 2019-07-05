@@ -1,16 +1,22 @@
 import React from 'react';
 import './RestaurantNav.css';
+import {menu} from "../ProductList/menu";
 
 export function RestaurantNav () {
     return (
         <nav className="restaurant-navigation">
             <ul className="restaurant-navigation-list">
-                <li className="restaurant-navigation_item">Закуски</li>
-                <li className="restaurant-navigation_item">Салаты</li>
-                <li className="restaurant-navigation_item">Супы</li>
-                <li className="restaurant-navigation_item">Горячие блюда</li>
-                <li className="restaurant-navigation_item">Гарниры</li>
-                <li className="restaurant-navigation_item">Десерты</li>
+                {menu.sections.map((section, i) => {
+                    return (
+                        <li className="restaurant-navigation_item">
+                            <a className="restaurant-navigation__link"
+                               href={`#${section.title}`}>
+                            </a>
+                            {section.title}
+                        </li>
+                    )
+                    }
+                )}
             </ul>
         </nav>
     )
