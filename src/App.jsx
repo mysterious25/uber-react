@@ -5,12 +5,14 @@ import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 import {Footer} from "./components/Footer/Footer";
 import {Restaurant} from "./components/Restaurant/Restaurant";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 
 function App() {
     return (
         <div className="App">
             <Router>
+              <ScrollToTop>
                 <Header/>
                 <Route path="/"
                        exact
@@ -19,6 +21,7 @@ function App() {
                            path="/restaurant"
                            component={Restaurant}
                        />
+              </ScrollToTop>
             </Router>
             <Footer/>
         </div>
