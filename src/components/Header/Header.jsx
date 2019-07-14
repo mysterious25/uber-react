@@ -14,7 +14,7 @@ export function Header() {
                     <button className="header__time">Asap</button>
                     <span className="header__span">to</span>
                     <label className="header__label">
-                        <input type="text" className="header__input" placeholder="ul. Tarasivska St, 16"/>
+                        <input type="text" className="header__input" placeholder="ul. Pobedi St, 16"/>
                     </label>
                 </div>
                 <div className="header__wrapper__button">

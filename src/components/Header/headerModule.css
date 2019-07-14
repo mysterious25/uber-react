@@ -2,6 +2,8 @@
 
 .header {
   width: 100%;
+  box-shadow: 0 16px 8px rgba(38,38,38,.1);
+  padding: 10px;
 }
 
 .header__wrapper {
@@ -10,6 +12,7 @@
   max-width: 960px;
   margin: 0 auto;
   margin-top: 20px;
+
 }
 
 .header__link {

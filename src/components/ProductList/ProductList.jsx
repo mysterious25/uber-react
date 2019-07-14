@@ -3,10 +3,14 @@ import './ProductList.css';
 import {ProductCard} from "../ProductCard/ProductCard";
 import {restaurantMenus} from './restaurants';
 
-export function ProductList() {
+
+
+export function ProductList(props) {
     return (
         <ul className="productList">
-            {restaurantMenus.map((restaurantMenu, i) => {
+            {restaurantMenus
+                .filter((restaurantMenu) => restaurantMenu.title.includes(props.searchValue))
+                .map((restaurantMenu, i) => {
                 return (
                     <ProductCard key={i}
                                  title={restaurantMenu.title}

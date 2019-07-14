@@ -1,12 +1,12 @@
 import React from 'react';
-import {RestaurantTitle} from "../RestaurantTitle/RestaurantTitle";
-import {ProductList} from "../ProductList/ProductList";
+import { RestaurantTitle } from "../RestaurantTitle/RestaurantTitle";
+import { ProductList } from "../ProductList/ProductList";
 
-export function ProductListWrapper() {
+export function ProductListWrapper(props) {
     return (
         <div className="productListWrapper">
             <RestaurantTitle/>
-            <ProductList/>
+            <ProductList searchValue={props.searchValue}/>
         </div>
     )
 }
