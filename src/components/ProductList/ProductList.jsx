@@ -9,7 +9,7 @@ export function ProductList(props) {
     return (
         <ul className="productList">
             {restaurantMenus
-                .filter((restaurantMenu) => restaurantMenu.title.includes(props.searchValue))
+                .filter((restaurantMenu) => restaurantMenu.title.toLowerCase().includes(props.searchValue.toLowerCase()))
                 .map((restaurantMenu, i) => {
                 return (
                     <ProductCard key={i}
