@@ -6,10 +6,11 @@
     padding-top: 10px;
     height: 55px;
     padding-left: 35px;
+    font-size: 16px;
 }
 
 .search {
-    margin-top: 55px;
+    margin-top: 8px;
 }
 
 .search__label {
