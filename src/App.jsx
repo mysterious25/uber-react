@@ -19,7 +19,6 @@ function App() {
                            path="/restaurant"
                            component={Restaurant}
                        />
-
             </Router>
             <Footer/>
         </div>
