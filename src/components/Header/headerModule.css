@@ -4,6 +4,7 @@
   width: 100%;
   box-shadow: 0 0 16px rgba(38,38,38,.16);
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .header__wrapper {
