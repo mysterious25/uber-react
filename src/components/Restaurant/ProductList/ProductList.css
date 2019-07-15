@@ -4,9 +4,15 @@
     padding: 0;
 }
 
+.restaurant__chooseTitle {
+    padding-top: 100px;
+    margin-top: -100px;
+    display: block;
+    font-size: 22px;
+}
+
 .restaurant__chooseBlock {
     text-align: left;
-    font-size: 22px;
 }
 
 .restaurant__CardWrapper {

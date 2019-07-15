@@ -44,12 +44,12 @@
   border: 1px solid var(--border-grey);
   border-radius: 2px;
   width: 65px;
-  height: 45px;
+  height: 41px;
 }
 
 .header__input {
   width: 292px;
-  height: 45px;
+  height: 37px;
   border: 1px solid var(--border-grey);
   border-radius: 2px;
   padding-left: 35px;
