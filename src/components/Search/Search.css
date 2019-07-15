@@ -8,6 +8,7 @@
     padding-left: 35px;
     font-size: 17px;
     box-sizing: border-box;
+    outline: none;
 }
 
 .search {
@@ -23,4 +24,5 @@
     content: url("Shapesearch.svg");
     position: absolute;
     top: 0px;
+    cursor: pointer;
 }
